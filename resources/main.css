@@ -1,6 +1,6 @@
-@import "resources/layout.css";
-@import "resources/tipography.css";
-@import "resources/style.css";
+@import "layout.css";
+@import "tipography.css";
+@import "style.css";
 
 :root {
     --bg-color : #252625;
