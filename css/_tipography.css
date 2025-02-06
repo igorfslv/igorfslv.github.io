@@ -1,0 +1,49 @@
+
+header {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    color: var(--font-color);
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style:normal;
+    font-variation-settings:"width" 100;
+    color: var(--font-color);
+  }
+
+footer {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    color: var(--font-color);
+}  
+
+a:link{
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:visited{
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--font-link-color);
+    text-decoration: none;
+}
+
+a:active{
+    color: var(--font-link-color);
+    text-decoration: none;
+}
+
