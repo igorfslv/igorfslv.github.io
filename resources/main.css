@@ -1,6 +1,8 @@
-@import "layout.css";
-@import "tipography.css";
-@import "style.css";
+@import url("layout.css");
+@import url("style.css");
+@import url("tipography.css");
+@import url("reset.css");
+
 
 :root {
     --bg-color : #252625;
