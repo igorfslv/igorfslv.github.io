@@ -1,0 +1,136 @@
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perfil-sobre{
+    display: flex;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: start;
+    padding: auto;
+    font-size: var(--f-s4);
+    
+}
+   
+.nav-links-rede{
+    display: flex;
+    justify-content: end;
+    padding: auto;
+}
+    
+ul>li{
+    padding: auto;
+    margin: 0px 4%;
+    border-bottom: 2px solid;
+    border-color: var(--font-link-color);
+    padding-bottom: 4px;
+
+}
+
+
+#foto-perfil{
+    width: 100px;  
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: var(--font-link-color);
+    margin-right: 20px;
+}
+
+#foto-perfil-2{
+    width: 180px;  
+    height: 180px;
+    border-radius: 50%;
+}
+
+.titulo-nome {
+    font-size: var(--f-s3);
+    font-weight: 400;
+    margin-top: 5%;
+    padding: auto;
+}
+
+.subtitulo {
+    font-size: var(--f-s5);
+    font-weight: 300;
+    margin-top: 5%;
+    padding: auto;
+    color: var(--font-color2);
+}
+
+.title {
+    font-size: var(--f-s1);
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 0px 15px 10px;
+}
+
+.intro{
+    font-size: var(--f-s6);
+    font-weight: 300;
+    padding: 10px 10px 15px 10px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  
+}
+
+.nome-perfil-sobre{
+    font-size: var(--f-s1);
+    padding: 30px;
+}
+
+.subtitle{
+    font-size: var(--f-s2);
+    color: var(--font-color2);
+    padding: 20px 0;
+    margin-bottom: 1px;
+}
+
+.exp-title{
+    font-size: var(--f-s3);
+    color: var(--font-link-color);
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.exp-periodo{
+    font-size: var(--f-s6);
+    font-style: italic;
+    color: var(--font-color2);
+    padding-top: 3px;
+}
+
+.exp-cargo{
+    font-size: var(--f-s4);
+    color: var(--font-color);
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px 0px;
+    margin: 1px;
+}
+
+.exp-descricao{
+    font-size: var(--f-s6);
+    color: var(--font-color);
+    font-style: normal;
+    font-weight: 100;
+    padding: 10px 5px 30px 5px;
+    margin: 1px;
+    border-bottom: 2px solid var(--font-link-color);
+}

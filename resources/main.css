@@ -1,0 +1,16 @@
+@import "resources/layout.css";
+@import "resources/tipography.css";
+@import "resources/style.css";
+
+:root {
+    --bg-color : #252625;
+    --font-color:#d4d4d4;
+    --font-color2: #979797;
+    --font-link-color: #a1d5ed;
+    --f-s1: 34px;
+    --f-s2: 30px;
+    --f-s3: 26px;
+    --f-s4: 20px;
+    --f-s5: 18px;
+    --f-s6: 16px;
+}
